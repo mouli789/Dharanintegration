@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git credentialsId: 'mouli789' , url:  'https://github.com/mouli789/Dharanintegration.git' 
+                git credentialsId: 'Dharanintegration' , url:  'https://github.com/mouli789/Dharanintegration.git' 
             }
         }
         
